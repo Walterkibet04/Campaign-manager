@@ -38,4 +38,4 @@ class Subscriber(models.Model):
         ordering=('-created_at',)
 
     def __str__(self):
-        return self.ema
+        return self.email
